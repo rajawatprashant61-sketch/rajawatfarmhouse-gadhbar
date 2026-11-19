@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAJAWAT FARM HOUSE | Gadhbar, Bah, Agra - Er. Prashant Rajawat</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            farm: {
+              green: '#163826',
+              deep: '#0e2419',
+              leaf: '#245638',
+              lightGreen: '#35754f',
+              gold: '#d4a359',
+              amber: '#e5ad35',
+              mustard: '#facc15',
+              soil: '#78350f',
+              brick: '#b44a28',
+              sand: '#fcfaf5',
+              stoneMuted: '#f3eee3'
+            }
+          },
+          fontFamily: {
+            heading: ['Cinzel', 'serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glow-gold {
+      box-shadow: 0 10px 25px -5px rgba(212, 163, 89, 0.35);
+    }
+    .hero-overlay {
+      background: linear-gradient(180deg, rgba(14, 36, 25, 0.85) 0%, rgba(22, 56, 38, 0.65) 50%, rgba(14, 36, 25, 0.95) 100%);
+    }
+    .photo-frame {
+      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-farm-sand text-stone-800 font-body antialiased selection:bg-farm-gold selection:text-farm-deep">
+
+  <!-- TOP ANNOUNCEMENT & CONTACT BAR -->
+  <div class="bg-farm-deep text-stone-200 text-xs py-2.5 px-4 border-b border-farm-leaf/40">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+      <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-center md:text-left">
+        <span class="inline-flex items-center gap-1.5 text-farm-gold font-bold tracking-wide">
+          <i class="fa-solid fa-map-location-dot"></i> RAJAWAT FARM HOUSE
+        </span>
+        <span class="hidden md:inline text-stone-600">•</span>
+        <span class="text-stone-300">
+          Village Gadhbar, Jaitpur Kalan, Bah, Agra - 283114 (U.P.)
+        </span>
+        <span class="hidden md:inline text-stone-600">•</span>
+        <span class="text-amber-300 font-semibold">
+          <i class="fa-solid fa-user-gear mr-1"></i> Er. Prashant Rajawat
+        </span>
+      </div>
+
+      <div class="flex items-center gap-5 text-xs">
+        <a href="tel:8193017129" class="hover:text-farm-gold transition flex items-center gap-1.5 font-bold text-white">
+          <i class="fa-solid fa-phone text-emerald-400"></i> +91 8193017129
+        </a>
+        <a href="mailto:rajawatprashant61@gmail.com" class="hover:text-farm-gold transition hidden sm:flex items-center gap-1.5 text-stone-300">
+          <i class="fa-solid fa-envelope text-farm-gold"></i> rajawatprashant61@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo & Branding -->
+        <a href="#" class="flex items-center gap-3.5 group">
+          <div class="w-12 h-12 rounded-xl bg-farm-green text-farm-gold flex items-center justify-center font-heading font-black text-xl border-2 border-farm-gold shadow-md group-hover:scale-105 transition-transform duration-300">
+            RF
+          </div>
+          <div>
+            <span class="font-heading font-extrabold text-lg sm:text-xl text-farm-green tracking-tight block leading-tight">
+              RAJAWAT FARM HOUSE
+            </span>
+            <span class="text-[11px] font-semibold text-farm-brick uppercase tracking-widest block">
+              Gadhbar, Bah, Agra &bull; Er. Prashant Rajawat
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-stone-700">
+          <a href="#about" class="hover:text-farm-leaf transition">About Farm</a>
+          <a href="#authentic-photos" class="text-farm-brick hover:text-amber-800 transition flex items-center gap-1.5">
+            <i class="fa-solid fa-camera"></i> Farm Photos
+          </a>
+          <a href="#crops" class="hover:text-farm-leaf transition">Crops & Mandi Rates</a>
+          <a href="#flowers" class="hover:text-farm-leaf transition">Floriculture</a>
+          <a href="#location" class="hover:text-farm-leaf transition">Location & Directions</a>
+          <a href="#contact" class="hover:text-farm-leaf transition">Order & Inquire</a>
+        </nav>
+
+        <!-- Right Quick CTAs -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="https://wa.me/918193017129?text=Hello%20Er.%20Prashant%20Rajawat,%20I%20am%20visiting%20the%20Rajawat%20Farm%20House%20website%20and%20would%20like%20to%20inquire%20about%20your%20crops%20and%20farm%20visit." target="_blank" class="px-4 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs flex items-center gap-2 shadow-sm transition transform hover:-translate-y-0.5">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>WhatsApp Direct</span>
+          </a>
+          <a href="#contact" class="px-5 py-2.5 rounded-full bg-farm-green hover:bg-farm-leaf text-farm-gold font-semibold text-xs border border-farm-gold/40 shadow-sm transition">
+            Book Visit
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileNavToggle" class="lg:hidden p-2 rounded-lg text-stone-700 hover:text-farm-green hover:bg-stone-100" onclick="toggleMenu()" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="hidden lg:hidden bg-stone-50 border-b border-stone-200 px-5 pt-3 pb-6 space-y-3">
+      <a href="#about" onclick="toggleMenu()" class="block py-2 text-stone-800 font-semibold border-b border-stone-200">About Farm & Heritage</a>
+      <a href="#authentic-photos" onclick="toggleMenu()" class="block py-2 text-farm-brick font-bold border-b border-stone-200">Authentic Farm Photographs</a>
+      <a href="#crops" onclick="toggleMenu()" class="block py-2 text-stone-800 font-semibold border-b border-stone-200">All Crops & Mandi Rates</a>
+      <a href="#flowers" onclick="toggleMenu()" class="block py-2 text-stone-800 font-semibold border-b border-stone-200">Floriculture Gardens</a>
+      <a href="#location" onclick="toggleMenu()" class="block py-2 text-stone-800 font-semibold border-b border-stone-200">Location (Gadhbar, Bah, Agra)</a>
+      <a href="#contact" onclick="toggleMenu()" class="block py-2 text-stone-800 font-semibold">Contact & Lead Form</a>
+      <div class="pt-2 flex flex-col gap-2">
+        <a href="https://wa.me/918193017129" class="w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-sm">
+          <i class="fa-brands fa-whatsapp mr-1.5"></i> WhatsApp: +91 8193017129
+        </a>
+        <a href="tel:8193017129" class="w-full text-center py-2.5 rounded-xl bg-farm-green text-farm-gold font-bold text-sm">
+          <i class="fa-solid fa-phone mr-1.5"></i> Call: 8193017129
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-[92vh] flex items-center justify-center text-white overflow-hidden bg-farm-deep">
+    <div class="absolute inset-0 z-0">
+      <!-- Authentic Farm Entrance Photograph as Primary Hero Background -->
+      <img src="images/farm-entrance-and-signboard.png" 
+           alt="Rajawat Farm House Entrance Road and Tractor Gadhbar" 
+           onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2000&q=80';"
+           class="w-full h-full object-cover object-center scale-105 transform filter brightness-75">
+      <div class="absolute inset-0 hero-overlay"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <!-- Authentic Farm Signage Tag -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-stone-900/90 backdrop-blur border border-farm-gold/60 text-farm-gold text-xs sm:text-sm font-semibold tracking-wide mb-6">
+        <i class="fa-solid fa-shield-halved text-farm-amber"></i>
+        <span>Official Boundary Sign: <strong>"राजावत फार्म हाउस &bull; 8193017129"</strong></span>
+      </div>
+
+      <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 drop-shadow-lg">
+        RAJAWAT FARM HOUSE, GADHBAR
+      </h1>
+      
+      <p class="text-farm-gold text-lg sm:text-2xl font-semibold mb-5 tracking-wide">
+        Jaitpur Kalan, Bah, Agra &bull; Directed by Er. Prashant Rajawat
+      </p>
+
+      <p class="max-w-3xl mx-auto text-stone-200 text-sm sm:text-base md:text-lg font-normal leading-relaxed mb-9 drop-shadow">
+        Welcome to our authentic agricultural estate in Gadhbar. Featuring our actual gateway road, agricultural tractor groves, vast alternating wheat and mustard horizons, and pure organic harvests. Reach us directly at <strong>+91 8193017129</strong>.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#authentic-photos" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-farm-gold hover:bg-farm-amber text-farm-deep font-extrabold text-sm sm:text-base glow-gold transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2 shadow-lg">
+          <i class="fa-solid fa-camera"></i>
+          <span>View Real Farm Photos</span>
+        </a>
+        <a href="#crops" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 border border-white/40 text-white font-semibold text-sm sm:text-base backdrop-blur transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-wheat-awn text-farm-gold"></i>
+          <span>Crops & Current Mandi Rates</span>
+        </a>
+      </div>
+
+      <!-- Quick Highlights Strip -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-14 pt-8 border-t border-white/20 text-left">
+        <div class="p-3.5 rounded-xl bg-farm-deep/80 backdrop-blur border border-white/10">
+          <span class="block text-farm-gold font-bold text-lg sm:text-xl">Verified Farm</span>
+          <span class="text-xs text-stone-300">Gadhbar, Bah, Agra (283114)</span>
+        </div>
+        <div class="p-3.5 rounded-xl bg-farm-deep/80 backdrop-blur border border-white/10">
+          <span class="block text-farm-gold font-bold text-lg sm:text-xl">Direct Mandi Rates</span>
+          <span class="text-xs text-stone-300">Wheat, Rice, Potato, Millets</span>
+        </div>
+        <div class="p-3.5 rounded-xl bg-farm-deep/80 backdrop-blur border border-white/10">
+          <span class="block text-farm-gold font-bold text-lg sm:text-xl">Er. Prashant Rajawat</span>
+          <span class="text-xs text-stone-300">Director & Agriculture Engineer</span>
+        </div>
+        <div class="p-3.5 rounded-xl bg-farm-deep/80 backdrop-blur border border-white/10">
+          <span class="block text-farm-gold font-bold text-lg sm:text-xl">WhatsApp & Call</span>
+          <span class="text-xs text-stone-300">+91 8193017129</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHENTIC FARM PHOTOGRAPHS SHOWCASE -->
+  <section id="authentic-photos" class="py-20 bg-stone-100 border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-flex items-center gap-1.5 py-1 px-3.5 rounded-full bg-farm-brick/10 text-farm-brick text-xs font-bold uppercase tracking-wider mb-2">
+          <i class="fa-solid fa-camera-retro"></i> Authentic On-Site Photography
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-farm-green">
+          Real Glimpses of Rajawat Farm House
+        </h2>
+        <p class="text-stone-600 text-sm sm:text-base mt-3">
+          Explore actual high-resolution photographs taken on-site at Gadhbar—capturing the entrance gates, official boundary wall with contact details, tractor parking grove, and the road to Jaitpur Kalan.
+        </p>
+      </div>
+
+      <!-- 3 Featured Authentic Pictures Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Photo 1: Farm Entrance Road & Tractor -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-stone-200 photo-frame flex flex-col group">
+          <div class="relative h-72 sm:h-80 overflow-hidden cursor-pointer" onclick="openPhotoModal('images/farm-entrance-and-signboard.png', 'Rajawat Farm House Entrance and Fields', 'Actual farm entrance view showing the Rajawat Farm House signboard, tractor, trees and green fields.')">
+            <img src="images/farm-entrance-and-signboard.png" 
+                 alt="Rajawat Farm House Entrance Road and Tractor" 
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x600/163826/d4a359?text=Rajawat+Farm+Entrance+Road';"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+            <span class="absolute top-4 left-4 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Entrance Avenue
+            </span>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <span class="text-xs text-farm-gold font-semibold flex items-center gap-1 mb-1">
+                <i class="fa-solid fa-expand"></i> Click to Zoom High-Res
+              </span>
+              <h3 class="font-heading font-bold text-lg">Farm Entrance, Tractor & Green Fields</h3>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              The peaceful driveway flanked by precast boundary pillars, expansive fertile plots, and farm tractor parked under lush shade trees.
+            </p>
+            <div class="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
+              <span class="text-stone-500"><i class="fa-solid fa-location-dot text-farm-brick mr-1"></i> Gadhbar Farmstead</span>
+              <button onclick="openPhotoModal('images/farm-entrance-and-signboard.png', 'Rajawat Farm House Entrance and Fields', 'Actual farm entrance view showing the Rajawat Farm House signboard, tractor, trees and green fields.')" class="font-bold text-farm-green hover:underline">
+                View Fullscreen &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 2: Official Signage Wall & Open Fields -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-stone-200 photo-frame flex flex-col group">
+          <div class="relative h-72 sm:h-80 overflow-hidden cursor-pointer" onclick="openPhotoModal('images/farm-signboard-and-road.png', 'Rajawat Farm House Signboard and Approach Road', 'Actual photograph of the Rajawat Farm House signboard beside the rural approach road.')">
+            <img src="images/farm-signboard-and-road.png" 
+                 alt="Rajawat Farm House Painted Signboard Wall and Fields" 
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x600/163826/d4a359?text=Rajawat+Farm+Signboard+Wall';"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+            <span class="absolute top-4 left-4 bg-farm-brick text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Official Signage
+            </span>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <span class="text-xs text-farm-gold font-semibold flex items-center gap-1 mb-1">
+                <i class="fa-solid fa-expand"></i> Click to Zoom High-Res
+              </span>
+              <h3 class="font-heading font-bold text-lg">राजावत फार्म हाउस &bull; 8193017129</h3>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              The authentic painted boundary wall greeting guests with our farm name and direct phone number, set against sprawling seasonal acreage.
+            </p>
+            <div class="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
+              <span class="text-stone-500"><i class="fa-solid fa-phone text-emerald-600 mr-1"></i> 8193017129</span>
+              <button onclick="openPhotoModal('images/farm-signboard-and-road.png', 'Rajawat Farm House Signboard and Approach Road', 'Actual photograph of the Rajawat Farm House signboard beside the rural approach road.')" class="font-bold text-farm-green hover:underline">
+                View Fullscreen &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 3: Approach Road & Sign Perspective -->
+        <div class="bg-white rounded-3xl overflow-hidden border border-stone-200 photo-frame flex flex-col group">
+          <div class="relative h-72 sm:h-80 overflow-hidden cursor-pointer" onclick="openPhotoModal('images/farm-road-and-trees.png', 'Farm Boundary and Rural Approach Road', 'Actual view of the farm boundary, signboard and road leading towards the property.')">
+            <img src="images/farm-road-and-trees.png" 
+                 alt="Approach Road and Rajawat Farm House Signboard" 
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x600/163826/d4a359?text=Approach+Road+Bah+Jaitpur+Kalan';"
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+            <span class="absolute top-4 left-4 bg-emerald-800 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Road Connectivity
+            </span>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <span class="text-xs text-farm-gold font-semibold flex items-center gap-1 mb-1">
+                <i class="fa-solid fa-expand"></i> Click to Zoom High-Res
+              </span>
+              <h3 class="font-heading font-bold text-lg">Farm Road and Tree-lined Entrance</h3>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              A real view of the tree-lined rural road and Rajawat Farm House boundary in Gadhbar.
+            </p>
+            <div class="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
+              <span class="text-stone-500"><i class="fa-solid fa-route text-farm-gold mr-1"></i> Easy Car / Truck Access</span>
+              <button onclick="openPhotoModal('images/farm-road-and-trees.png', 'Farm Boundary and Rural Approach Road', 'Actual view of the farm boundary, signboard and road leading towards the property.')" class="font-bold text-farm-green hover:underline">
+                View Fullscreen &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & HERITAGE SECTION -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <!-- Visual Documentary Framing with Authentic Signage -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-farm-stoneMuted">
+            <img src="images/farm-signboard-and-road.png" 
+                 alt="Rajawat Farm House Signboard and Agricultural Fields" 
+                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=1200&q=80';"
+                 class="w-full h-[470px] object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-farm-deep via-transparent to-transparent opacity-85"></div>
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <span class="inline-block px-3 py-1 bg-farm-brick text-white text-[11px] font-bold tracking-wider uppercase rounded-full mb-2">
+                Authentic Gateway
+              </span>
+              <h3 class="font-heading font-bold text-xl sm:text-2xl text-farm-gold">
+                "राजावत फार्म हाउस &bull; 8193017129"
+              </h3>
+              <p class="text-xs text-stone-300 mt-1 leading-relaxed">
+                Pictured above is the actual landmark boundary wall standing at Village Gadhbar, welcoming visitors, buyers, and agro-tourists.
+              </p>
+            </div>
+          </div>
+
+          <!-- Director Profile Card -->
+          <div class="absolute -bottom-6 -right-3 sm:right-6 bg-farm-deep text-white p-5 rounded-2xl shadow-xl border-2 border-farm-gold/50 max-w-xs">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-farm-leaf text-farm-gold flex items-center justify-center font-bold text-lg border border-farm-gold shrink-0">
+                <i class="fa-solid fa-user-gear"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-farm-gold">Er. Prashant Rajawat</h4>
+                <p class="text-[11px] text-stone-300">Agricultural Engineer & Director</p>
+                <a href="tel:8193017129" class="text-[11px] text-emerald-400 font-semibold hover:underline block mt-0.5">
+                  <i class="fa-solid fa-phone mr-1"></i>+91 8193017129
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Narrative Content -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 text-farm-brick font-bold tracking-wider uppercase text-xs">
+            <span class="w-6 h-0.5 bg-farm-brick"></span>
+            Heritage Stewardship Meets Precision Agronomy
+          </div>
+
+          <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-farm-green leading-snug">
+            Generational Farming in Gadhbar, Bah (Agra)
+          </h2>
+
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+            Located in <strong>Gadhbar, Jaitpur Kalan, Bah (Agra - 283114)</strong>, <strong>Rajawat Farm House</strong> stands as a landmark of modern agricultural enterprise and generational dedication to pure soil health. Managed under the vision of <strong>Er. Prashant Rajawat</strong>, the farm implements scientific crop cycles, balanced rotary tillage, and clean irrigation.
+          </p>
+
+          <p class="text-stone-600 text-sm leading-relaxed">
+            Whether supplying bulk grain lots of Sharbati wheat, premium unpolished pulses (Moong and Urad dal), nutritious pearl millet (Bajra), or fresh Agra potato stock, we eliminate middlemen so buyers receive genuine farmgate produce at current mandi prices.
+          </p>
+
+          <!-- Core Practice Pillars -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+            <div class="p-4 rounded-xl bg-farm-sand border border-stone-200">
+              <div class="text-farm-leaf font-bold text-sm flex items-center gap-2 mb-1">
+                <i class="fa-solid fa-tractor text-farm-gold"></i> Modern Mechanization
+              </div>
+              <p class="text-xs text-stone-600">Rotary tillers and laser levelers ensuring optimum crop seedbeds and moisture retention.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-farm-sand border border-stone-200">
+              <div class="text-farm-leaf font-bold text-sm flex items-center gap-2 mb-1">
+                <i class="fa-solid fa-water text-farm-gold"></i> Pure Water Irrigation
+              </div>
+              <p class="text-xs text-stone-600">Clean underground water ditches nurturing healthy crop roots across the entire acreage.</p>
+            </div>
+          </div>
+
+          <div class="pt-2 flex flex-wrap gap-4 items-center">
+            <a href="#crops" class="px-6 py-3 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs sm:text-sm transition flex items-center gap-2 shadow-md">
+              <i class="fa-solid fa-wheat-awn text-farm-gold"></i> View Crops & Mandi Rates
+            </a>
+            <a href="mailto:rajawatprashant61@gmail.com" class="text-xs sm:text-sm font-bold text-farm-brick hover:underline flex items-center gap-1.5">
+              <i class="fa-solid fa-envelope"></i> rajawatprashant61@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CROPS & PRESENT MARKET RATES SECTION -->
+  <section id="crops" class="py-20 bg-farm-sand border-y border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block py-1 px-3 rounded-full bg-farm-leaf/10 text-farm-leaf text-xs font-bold uppercase tracking-wider mb-2">
+          Direct Farm Harvest &bull; Current Mandi Rates
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-farm-green">
+          Our Primary Crops & Current Market Rates
+        </h2>
+        <p class="text-stone-600 text-sm sm:text-base mt-3">
+          Fresh produce harvested right here at Rajawat Farm House, Gadhbar. Current benchmark rates reflect prevailing regional Agra mandi prices and farmgate loading.
+        </p>
+      </div>
+
+      <!-- Crops Grid: Wheat, Rice, Potato, Bajra, Moong Dal, Urad Dal -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. Wheat (Gehu) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80" 
+                 alt="Golden Sharbati Wheat at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Rabi Season Staple
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Sharbati & WH-1105
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Wheat (Gehu)</h3>
+                <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">Available</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">Sun-ripened, golden, heavy-grain wheat</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Cleaned and aerated high-gluten wheat ideal for soft rotis and wholesome traditional stone milling. Packaged in 30kg, 50kg, and bulk quintal bags.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹2,800 - ₹3,100</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹30/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Wheat (Gehu)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Wheat
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Paddy / Rice (Chawal) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80" 
+                 alt="Paddy and Rice Chawal at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Kharif Harvest
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Aromatic Long-Grain
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Paddy & Rice (Chawal)</h3>
+                <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">New Lot</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">Naturally fragrant, unpolished grain</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Nourished with deep aquifer water. Free from artificial chemical polishes, preserving essential fiber, natural vitamins, and delicate aroma.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹3,200 - ₹3,450</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹34/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Paddy & Rice (Chawal)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Rice
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Potato (Aloo) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80" 
+                 alt="Potatoes Aloo harvest at Agra Rajawat Farm" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-brick text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Famous Agra Belt Potato
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Table & Processing Grade
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Potato (Aloo)</h3>
+                <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-full">Farm Loading</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">High starch, firm texture, premium taste</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Directly harvested from loamy Bah fields. Excellent culinary and chips-making traits, with direct truckload and cold storage dispatch options.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹1,200 - ₹1,450</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹14/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Potato (Aloo)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Potato
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Pearl Millet (Bajra) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1627920769842-6887c6df05ca?auto=format&fit=crop&w=800&q=80" 
+                 alt="Pearl Millet Bajra at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Nutri-Cereal Superfood
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Chambal Desi Hybrid
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Pearl Millet (Bajra)</h3>
+                <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">Organic Mineral</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">Rich in iron, calcium, and natural fiber</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Traditional winter staple of the Braj & Chambal region. Pure, sun-dried grains cultivated with minimal irrigation and zero chemical additives.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹2,100 - ₹2,350</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹22/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Pearl Millet (Bajra)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Bajra
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Green Gram (Moong Dal) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
+                 alt="Moong Dal Green Gram at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Pure Unpolished Pulse
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Whole Green & Split
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Green Gram (Moong Dal)</h3>
+                <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">High Protein</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">Easily digestible, nutrient-dense pulse</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Naturally matured pods yielding glossy, healthy green gram and yellow split lentils without synthetic glazing, paraffin, or coloring.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹8,800 - ₹9,500</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹92/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Green Gram (Moong Dal)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Moong Dal
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Black Gram (Urad Dal) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 flex flex-col group">
+          <div class="h-56 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80" 
+                 alt="Urad Dal Black Gram at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-farm-deep/90 text-farm-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              Generational Pulse
+            </span>
+            <span class="absolute bottom-3 right-3 bg-white/95 backdrop-blur text-stone-800 text-xs font-semibold px-2.5 py-1 rounded-md">
+              Desi Black Gram
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 class="font-heading font-bold text-xl text-farm-green">Black Gram (Urad Dal)</h3>
+                <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">Raw & Clean</span>
+              </div>
+              <p class="text-xs text-farm-brick font-semibold mt-1">Rich, earthy culinary profile for dal-bati</p>
+              <p class="text-stone-600 text-xs sm:text-sm mt-3 leading-relaxed">
+                Hand-harvested and air-winnowed black gram with intense aroma, thick broth quality, and wholesome protein content for culinary excellence.
+              </p>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <div class="flex items-baseline justify-between mb-3">
+                <span class="text-xs text-stone-500 font-medium">Present Mandi Rate:</span>
+                <div class="text-right">
+                  <span class="text-lg font-extrabold text-farm-soil">₹8,700 - ₹9,800</span>
+                  <span class="text-xs text-stone-500 block">/ Quintal (~₹94/kg)</span>
+                </div>
+              </div>
+              <button onclick="orderCropDirect('Black Gram (Urad Dal)')" class="w-full py-2.5 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs flex items-center justify-center gap-2 transition">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i> Inquire / Order Urad Dal
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FLORICULTURE & BOTANICAL SECTION -->
+  <section id="flowers" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-farm-brick font-bold tracking-wider uppercase text-xs">Floral Ecology & Natural Beauty</span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-farm-green mt-1">
+            Floriculture & Blooming Fields
+          </h2>
+        </div>
+        <p class="text-stone-500 text-xs sm:text-sm max-w-md mt-3 md:mt-0">
+          Vibrant floral strips cultivating organic honeybee pollination, organic pest buffering, and aromatic visual charm throughout the seasons.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- 1. Mustard Blossoms -->
+        <div class="rounded-3xl overflow-hidden border border-stone-200 bg-farm-sand shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-64 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&w=700&q=80" 
+                 alt="Yellow Mustard flowers at Gadhbar Rajawat Farm" 
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-farm-deep/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 text-white">
+              <span class="text-farm-mustard text-xs font-bold uppercase tracking-wider">Golden Blanket</span>
+              <h4 class="font-heading font-bold text-lg">Mustard Blossoms</h4>
+            </div>
+          </div>
+          <div class="p-4">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Vast yellow blooms during winter months, fostering apiculture honey production and yield of cold-pressed mustard seeds.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Marigold -->
+        <div class="rounded-3xl overflow-hidden border border-stone-200 bg-farm-sand shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-64 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=700&q=80" 
+                 alt="Marigold flowers at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-farm-deep/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 text-white">
+              <span class="text-farm-amber text-xs font-bold uppercase tracking-wider">Festive Cultivar</span>
+              <h4 class="font-heading font-bold text-lg">Marigold (Genda)</h4>
+            </div>
+          </div>
+          <div class="p-4">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Bright orange and saffron marigold rows framing crop borders, offering natural nematode repelling and ceremonial flower supply.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. Sunflower -->
+        <div class="rounded-3xl overflow-hidden border border-stone-200 bg-farm-sand shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-64 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=700&q=80" 
+                 alt="Sunflowers at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-farm-deep/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 text-white">
+              <span class="text-farm-mustard text-xs font-bold uppercase tracking-wider">Solar Bloom</span>
+              <h4 class="font-heading font-bold text-lg">Sunflowers</h4>
+            </div>
+          </div>
+          <div class="p-4">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Radiant heliotropic disks turning with the sun, yielding nutrient-rich edible seeds while creating a scenic countryside backdrop.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. Desi Rose -->
+        <div class="rounded-3xl overflow-hidden border border-stone-200 bg-farm-sand shadow-sm hover:shadow-lg transition-all duration-300 group">
+          <div class="h-64 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=700&q=80" 
+                 alt="Desi Damask Roses at Rajawat Farm House" 
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-farm-deep/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 text-white">
+              <span class="text-rose-300 text-xs font-bold uppercase tracking-wider">Fragrant Damask</span>
+              <h4 class="font-heading font-bold text-lg">Desi Rose</h4>
+            </div>
+          </div>
+          <div class="p-4">
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Early-morning harvested aromatic pink roses, distilled for pure natural rose water (Gulab Jal) and refreshing herbal infusions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & ADDRESS SECTION -->
+  <section id="location" class="py-20 bg-stone-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-stone-200 grid lg:grid-cols-12 gap-8 items-center">
+        <!-- Location details -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 text-farm-brick font-bold tracking-wider uppercase text-xs">
+            <i class="fa-solid fa-map-pin text-farm-gold"></i>
+            Verified Geographic Address & Directions
+          </div>
+          <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-farm-green leading-snug">
+            Visit RAJAWAT FARM HOUSE in Gadhbar (Agra)
+          </h2>
+          
+          <div class="space-y-4 text-stone-700 text-sm">
+            <div class="p-4 rounded-2xl bg-farm-sand border border-stone-200 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-farm-green text-farm-gold flex items-center justify-center shrink-0 text-lg">
+                <i class="fa-solid fa-archway"></i>
+              </div>
+              <div>
+                <strong class="text-stone-900 block font-bold">Official Farm Address:</strong>
+                <p class="text-stone-600 text-xs sm:text-sm mt-0.5 leading-relaxed">
+                  <strong>RAJAWAT FARM HOUSE</strong><br>
+                  Village: Gadhbar, Post: Jaitpur Kalan,<br>
+                  Tehsil: Bah, District: Agra, Uttar Pradesh - <strong>283114</strong>, India.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-farm-sand border border-stone-200 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-farm-brick text-white flex items-center justify-center shrink-0 text-lg">
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <div>
+                <strong class="text-stone-900 block font-bold">Landmark & Approach:</strong>
+                <p class="text-stone-600 text-xs sm:text-sm mt-0.5">
+                  Follow the paved road from Bah towards Jaitpur Kalan into Gadhbar. Spot the distinctive precast wall marked <em>"राजावत फार्म हाउस 8193017129"</em>.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-farm-sand border border-stone-200 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center shrink-0 text-lg">
+                <i class="fa-solid fa-user-check"></i>
+              </div>
+              <div>
+                <strong class="text-stone-900 block font-bold">Proprietor Contact:</strong>
+                <p class="text-stone-600 text-xs sm:text-sm mt-0.5">
+                  <strong>Er. Prashant Rajawat</strong> &bull; Phone & WhatsApp: <strong>+91 8193017129</strong><br>
+                  Email: <strong>rajawatprashant61@gmail.com</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-2 flex flex-wrap gap-3">
+            <a href="https://maps.app.goo.gl/qb2NZATScvRdpYP49" target="_blank" class="px-6 py-3 rounded-xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-xs sm:text-sm transition flex items-center gap-2 shadow-md">
+              <i class="fa-solid fa-diamond-turn-right text-farm-gold"></i>
+              Open Exact Farm Location in Google Maps
+            </a>
+            <a href="tel:8193017129" class="px-5 py-3 rounded-xl bg-farm-sand hover:bg-stone-200 text-farm-deep font-bold text-xs sm:text-sm border border-stone-300 transition flex items-center gap-2">
+              <i class="fa-solid fa-phone text-emerald-600"></i> Call +91 8193017129
+            </a>
+          </div>
+        </div>
+
+        <!-- Google Maps and Approach Road Photo Split -->
+        <div class="lg:col-span-6 space-y-4">
+          <div class="rounded-2xl overflow-hidden border-2 border-stone-300 shadow-md h-56 relative bg-stone-200">
+            <iframe title="Google Maps pin for Rajawat Farm House, Gadhbar" src="https://www.google.com/maps?q=VMJX%2B58%20Rajawat%20Farm%20House%2C%20Gadhbar%2C%20Uttar%20Pradesh%20283114&output=embed" 
+              class="w-full h-full border-0" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Approach Road Photo Preview Box -->
+          <div class="rounded-2xl overflow-hidden border border-stone-300 bg-farm-sand p-3 flex items-center gap-4 shadow-sm">
+            <img src="images/farm-road-and-trees.png" 
+                 alt="Approach Road to Rajawat Farm House" 
+                 onerror="this.onerror=null; this.src='https://placehold.co/120x90/163826/d4a359?text=Approach+Road';"
+                 class="w-24 h-20 object-cover rounded-xl shrink-0 cursor-pointer"
+                 onclick="openPhotoModal('images/farm-road-and-trees.png', 'Farm Boundary and Rural Approach Road', 'Actual view of the farm boundary, signboard and road leading towards the property.')">
+            <div>
+              <span class="text-[11px] font-bold text-farm-brick uppercase tracking-wider block">Arrival Route</span>
+              <h4 class="font-bold text-sm text-farm-green">Tree-lined Farm Approach Road</h4>
+              <p class="text-xs text-stone-600 mt-0.5">Click the thumbnail to preview the actual turn into the farm boundary.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & DUAL-DISPATCH LEAD FORM -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-farm-brick font-bold tracking-wider uppercase text-xs">Direct Farmer Communication</span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-farm-green mt-1">
+          Send Your Details / Place Your Order
+        </h2>
+        <p class="text-stone-600 text-xs sm:text-sm mt-2">
+          Fill in your requirements below. Your message will be formatted and instantly transmitted to <strong>Er. Prashant Rajawat</strong> via <strong>WhatsApp (+91 8193017129)</strong> or <strong>Email (rajawatprashant61@gmail.com)</strong>.
+        </p>
+      </div>
+
+      <div class="bg-farm-sand border-2 border-stone-200 rounded-3xl p-6 sm:p-10 shadow-lg relative">
+        <form id="leadCaptureForm" class="space-y-5" onsubmit="event.preventDefault();">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
+                Your Full Name <span class="text-red-500">*</span>
+              </label>
+              <input type="text" id="custName" required placeholder="e.g. Ramesh Kumar" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-farm-green bg-white text-sm">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
+                Phone / WhatsApp Number <span class="text-red-500">*</span>
+              </label>
+              <input type="tel" id="custPhone" required placeholder="e.g. 8193017129" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-farm-green bg-white text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
+                Email Address
+              </label>
+              <input type="email" id="custEmail" placeholder="e.g. yourname@domain.com" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-farm-green bg-white text-sm">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
+                Select Crop / Purpose <span class="text-red-500">*</span>
+              </label>
+              <select id="custCrop" class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-farm-green bg-white text-sm text-stone-800">
+                <option value="Wheat (Gehu) - ₹2,800/Quintal">Wheat (Gehu / Sharbati) - ₹2,800/Quintal</option>
+                <option value="Paddy & Rice (Chawal) - ₹3,200/Quintal">Paddy & Rice (Chawal) - ₹3,200/Quintal</option>
+                <option value="Agra Potato (Aloo) - ₹1,200/Quintal">Agra Potato (Aloo) - ₹1,200/Quintal</option>
+                <option value="Pearl Millet (Bajra) - ₹2,100/Quintal">Pearl Millet (Bajra) - ₹2,100/Quintal</option>
+                <option value="Green Gram (Moong Dal) - ₹8,800/Quintal">Green Gram (Moong Dal) - ₹8,800/Quintal</option>
+                <option value="Black Gram (Urad Dal) - ₹8,700/Quintal">Black Gram (Urad Dal) - ₹8,700/Quintal</option>
+                <option value="Floriculture & Farm Tour Visit">Floriculture & Farm Tour Visit</option>
+                <option value="Bulk Procurement & Institutional Supply">Bulk Procurement & Institutional Supply</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-stone-800 uppercase tracking-wider mb-1.5">
+              Message / Required Quantity
+            </label>
+            <textarea id="custMsg" rows="3" placeholder="e.g. I need 50 quintals of wheat or would like to schedule a visit to the farm..." class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-farm-green bg-white text-sm"></textarea>
+          </div>
+
+          <!-- Dual Dispatch Action Buttons -->
+          <div class="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <button type="button" onclick="sendWhatsAppDispatch()" class="w-full py-4 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 shadow-md transition transform hover:-translate-y-0.5">
+              <i class="fa-brands fa-whatsapp text-2xl"></i>
+              <span>Send via WhatsApp (+91 8193017129)</span>
+            </button>
+
+            <button type="button" onclick="sendEmailDispatch()" class="w-full py-4 px-6 rounded-2xl bg-farm-green hover:bg-farm-leaf text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 shadow-md transition transform hover:-translate-y-0.5">
+              <i class="fa-solid fa-envelope text-xl text-farm-gold"></i>
+              <span>Send via Email</span>
+            </button>
+          </div>
+
+          <!-- Owner Assurance Notice -->
+          <div class="mt-4 p-3.5 bg-stone-100 rounded-xl border border-stone-200 text-center text-xs text-stone-600">
+            <i class="fa-solid fa-shield-halved text-emerald-600 mr-1.5"></i>
+            Inquiries are delivered straight to <strong>Er. Prashant Rajawat</strong> (+91 8193017129 / rajawatprashant61@gmail.com).
+          </div>
+
+          <!-- Toast Feedback Container -->
+          <div id="statusToast" class="hidden mt-3 p-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center gap-2">
+            <i id="toastIcon" class="fa-solid fa-circle-check text-base"></i>
+            <span id="toastMsgText"></span>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGH RESOLUTION PHOTO MODAL / LIGHTBOX -->
+  <div id="photoModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="relative max-w-5xl w-full bg-stone-900 rounded-3xl overflow-hidden border border-stone-700 shadow-2xl flex flex-col">
+      <div class="p-4 bg-stone-950 flex items-center justify-between border-b border-stone-800 text-white">
+        <div>
+          <h3 id="modalTitle" class="font-heading font-bold text-lg text-farm-gold">Farm Photograph</h3>
+          <p id="modalSubtitle" class="text-xs text-stone-400">Rajawat Farm House, Gadhbar, Bah, Agra</p>
+        </div>
+        <button onclick="closePhotoModal()" class="w-10 h-10 rounded-full bg-stone-800 hover:bg-stone-700 text-white flex items-center justify-center transition" aria-label="Close Preview">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="relative max-h-[75vh] flex items-center justify-center bg-black overflow-hidden p-2">
+        <img id="modalImg" src="" alt="Full view farm photograph" class="max-h-[70vh] w-auto max-w-full object-contain rounded-xl">
+      </div>
+
+      <div class="p-4 bg-stone-950 text-stone-300 text-xs flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-stone-800">
+        <span id="modalCaption" class="leading-relaxed"></span>
+        <a href="https://wa.me/918193017129?text=Hello%20Er.%20Prashant%20Rajawat,%20I%20saw%20the%20photos%20of%20Rajawat%20Farm%20House%20and%20would%20like%20to%20know%20more." target="_blank" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold shrink-0 transition flex items-center gap-1.5">
+          <i class="fa-brands fa-whatsapp"></i> Chat with Er. Prashant
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-farm-deep text-stone-300 pt-16 pb-12 border-t-4 border-farm-gold">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Farm Info -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-farm-leaf text-farm-gold flex items-center justify-center font-heading font-black text-lg border border-farm-gold">
+              RF
+            </div>
+            <div>
+              <span class="font-heading font-bold text-white text-base block leading-tight">RAJAWAT FARM HOUSE</span>
+              <span class="text-xs text-farm-gold font-medium">Gadhbar, Jaitpur Kalan, Bah</span>
+            </div>
+          </div>
+          <p class="text-xs text-stone-400 leading-relaxed">
+            A premier agricultural landmark in Bah (Agra). Combining precision engineering with pure organic traditions for crops, floriculture, and rural tourism.
+          </p>
+        </div>
+
+        <!-- Crops Quick Access -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm tracking-wider uppercase mb-4 text-farm-gold">
+            Crops & Mandi Rates
+          </h4>
+          <ul class="space-y-2 text-xs text-stone-300">
+            <li><a href="#crops" class="hover:text-farm-gold transition">🌾 Wheat (Gehu) &bull; ₹2,800 - ₹3,100/Q</a></li>
+            <li><a href="#crops" class="hover:text-farm-gold transition">🍚 Paddy & Rice &bull; ₹3,200 - ₹3,450/Q</a></li>
+            <li><a href="#crops" class="hover:text-farm-gold transition">🥔 Agra Potato &bull; ₹1,200 - ₹1,450/Q</a></li>
+            <li><a href="#crops" class="hover:text-farm-gold transition">🌾 Pearl Millet (Bajra) &bull; ₹2,100 - ₹2,350/Q</a></li>
+            <li><a href="#crops" class="hover:text-farm-gold transition">🥣 Moong & Urad Dal &bull; ₹8,700+/Q</a></li>
+          </ul>
+        </div>
+
+        <!-- Verified Contact Details -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm tracking-wider uppercase mb-4 text-farm-gold">
+            Verified Contact
+          </h4>
+          <ul class="space-y-2.5 text-xs text-stone-300">
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-user-check text-farm-gold mt-0.5"></i>
+              <span><strong>Proprietor:</strong> Er. Prashant Rajawat</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-phone text-emerald-400 mt-0.5"></i>
+              <a href="tel:8193017129" class="hover:text-farm-gold transition">+91 8193017129</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-envelope text-amber-400 mt-0.5"></i>
+              <a href="mailto:rajawatprashant61@gmail.com" class="hover:text-farm-gold transition">rajawatprashant61@gmail.com</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-rose-400 mt-0.5"></i>
+              <span>PIN: 283114, Bah, Agra, U.P.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Visiting & Booking Hours -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm tracking-wider uppercase mb-4 text-farm-gold">
+            Farm Timings
+          </h4>
+          <p class="text-xs text-stone-400 leading-relaxed mb-3">
+            Open daily: 6:30 AM – 6:30 PM (IST). Please connect on WhatsApp or call before visiting for guided field walk-throughs.
+          </p>
+          <a href="https://wa.me/918193017129" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition">
+            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp: +91 8193017129
+          </a>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-3">
+        <p>&copy; <span id="yearPlaceholder">2026</span> RAJAWAT FARM HOUSE, Gadhbar. All rights reserved.</p>
+        <p class="text-stone-400">Owner & Agronomy Director: Er. Prashant Rajawat</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT CONTROLLERS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('yearPlaceholder').textContent = new Date().getFullYear();
+    });
+
+    // Mobile Navbar Toggle
+    function toggleMenu() {
+      const drawer = document.getElementById('mobileDrawer');
+      drawer.classList.toggle('hidden');
+    }
+
+    // Photo Modal Lightbox Controller
+    function openPhotoModal(imgSrc, title, caption) {
+      document.getElementById('modalImg').src = imgSrc;
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalCaption').textContent = caption;
+      document.getElementById('photoModal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closePhotoModal() {
+      document.getElementById('photoModal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Close modal on escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePhotoModal();
+    });
+
+    // Prefill Selected Crop into Lead Form
+    function orderCropDirect(cropName) {
+      const select = document.getElementById('custCrop');
+      for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].text.toLowerCase().includes(cropName.toLowerCase())) {
+          select.selectedIndex = i;
+          break;
+        }
+      }
+      const contactSection = document.getElementById('contact');
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+      triggerFeedback(`Selected '${cropName}'. Enter your name and phone number to send your requirement.`);
+    }
+
+    // Extract Form Information
+    function extractFormData() {
+      const name = document.getElementById('custName').value.trim();
+      const phone = document.getElementById('custPhone').value.trim();
+      const email = document.getElementById('custEmail').value.trim() || 'Not Provided';
+      const crop = document.getElementById('custCrop').value;
+      const msg = document.getElementById('custMsg').value.trim() || 'No additional notes provided.';
+
+      if (!name || !phone) {
+        triggerFeedback('Please provide both your Name and Contact Phone Number.', true);
+        document.getElementById('custName').focus();
+        return null;
+      }
+      return { name, phone, email, crop, msg };
+    }
+
+    // Dual Dispatch 1: WhatsApp Automation
+    function sendWhatsAppDispatch() {
+      const data = extractFormData();
+      if (!data) return;
+
+      const adminPhone = "918193017129";
+      const formattedMessage = 
+`*NEW INQUIRY - RAJAWAT FARM HOUSE, GADHBAR*%0A` +
+`========================================%0A` +
+`👤 *Customer Name:* ${encodeURIComponent(data.name)}%0A` +
+`📞 *Contact Number:* ${encodeURIComponent(data.phone)}%0A` +
+`📧 *Email Address:* ${encodeURIComponent(data.email)}%0A` +
+`🌾 *Crop / Requirement:* ${encodeURIComponent(data.crop)}%0A` +
+`📝 *Details / Quantity:* ${encodeURIComponent(data.msg)}%0A` +
+`========================================%0A` +
+`📍 *Location:* Gadhbar, Jaitpur Kalan, Bah, Agra - 283114%0A` +
+`👨‍🌾 *Directed To:* Er. Prashant Rajawat`;
+
+      triggerFeedback('Opening WhatsApp... Please tap send to deliver your inquiry!');
+      window.open(`https://wa.me/${adminPhone}?text=${formattedMessage}`, '_blank');
+    }
+
+    // Dual Dispatch 2: Direct Email Automation (mailto:)
+    function sendEmailDispatch() {
+      const data = extractFormData();
+      if (!data) return;
+
+      const recipient = "rajawatprashant61@gmail.com";
+      const subject = encodeURIComponent(`Farm Inquiry: ${data.name} - ${data.crop}`);
+      const body = encodeURIComponent(
+`Dear Er. Prashant Rajawat,
+
+A new inquiry has been submitted via the Rajawat Farm House website:
+
+• Customer Name: ${data.name}
+• Contact Phone: ${data.phone}
+• Email: ${data.email}
+• Selected Crop / Requirement: ${data.crop}
+• Details / Quantity: ${data.msg}
+
+Farm Address: RAJAWAT FARM HOUSE, Village Gadhbar, Jaitpur Kalan, Bah, Agra - 283114 (U.P.)
+Director Phone: +91 8193017129
+`
+      );
+
+      triggerFeedback('Opening your email client... Please tap send to transmit the message!');
+      window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+    }
+
+    // Toast Notification Feedback Helper
+    function triggerFeedback(message, isError = false) {
+      const toast = document.getElementById('statusToast');
+      const text = document.getElementById('toastMsgText');
+      const icon = document.getElementById('toastIcon');
+
+      text.textContent = message;
+      toast.classList.remove('hidden');
+
+      if (isError) {
+        toast.className = "mt-3 p-3.5 rounded-xl bg-red-50 border border-red-300 text-red-800 text-xs sm:text-sm font-semibold flex items-center gap-2";
+        icon.className = "fa-solid fa-circle-exclamation text-red-600 text-base";
+      } else {
+        toast.className = "mt-3 p-3.5 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs sm:text-sm font-semibold flex items-center gap-2";
+        icon.className = "fa-solid fa-circle-check text-emerald-600 text-base";
+      }
+
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 5000);
+    }
+  </script>
+</body>
+</html>
